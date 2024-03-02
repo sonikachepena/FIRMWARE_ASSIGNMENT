@@ -12,7 +12,10 @@ Here we not supposed to use Millis(), delay() and micros() functions.
 CODE_EXPLAINATION:
 
 -> This code reads the analog voltage from the LM35 temperature sensor connected to pin A0 of the Arduino Uno. 
+
 -> It then converts this voltage to temperature in degrees Celsius. Based on the temperature reading, it determines the interval for blinking the onboard LED (pin 13). 
+
 -> The LED blinks at different intervals depending on whether the temperature is above or below 30°C. 
+
 NOTE: The millis() function is used to track time intervals without causing delays in the program execution.
 
